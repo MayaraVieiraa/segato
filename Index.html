@@ -1,0 +1,178 @@
+	<!DOCTYPE html>
+		<html>
+			<head>
+				<title>Restaurante do Alves</title>
+				<meta charset="utf-8" />
+				<meta name="author" content="Mayara" />
+				<meta name="keywords" content="Comida, lanche, lanchonete, restaurante, cantina, coxinha, comida barata, IFB" />
+				<meta name="description" content="Lugar para comer no IFB" />
+				<link rel="stylesheet" type="text/css" href="estilo.css" />
+			</head>
+		<body>
+			<header>
+			<img src="img/banner.png" alt="banner com uma coxinha de fundo e o nome do restaurante - Restaurante Alves" width="100%" height="350" />
+			</header>
+
+			<nav>
+				<a class="a-menu" href="#"> HOME </a>
+				<a class="a-menu" href="#pag-sobre"> SOBRE</a>
+				<a class="a-menu" href="#pag-cardápio"> CARDÁPIO</a>
+				<a class="a-menu" href="#pag-pedidos"> PEDIDOS </a>
+				<a class="a-menu" href="#pag-localização"> LOCALIZAÇÃO </a>
+			</nav>
+
+			<article>
+				<h1>SOBRE</h1>
+	
+				<p>O <strong>Restaurante do Alves</strong>, localizado no <em>Instituto Federal de Brasília</em>, oferece uma experiência gastronômica única em um ambiente acolhedor. Com um cardápio variado que inclui pratos tradicionais brasileiros e opções saudáveis, é um ponto de encontro para estudantes e funcionários.
+			</article>
+			
+			<section id="#pag-cardápio">
+				<h2>CARDÁPIO</h2>
+				<p>Temos um cardápio diverso para oferecer:</p>
+				<ul>
+					<li>Hambúrguer simples</li>
+					<li>Cheeseburger</li>
+					<li>X-Burger</li>
+					<li>X-Bacon</li>
+					<li>X-Egg</li>
+					<li>X-Tudo</li>
+					<li>Frango grelhado no pão</li>
+					<li>Sanduíche natural de frango</li>
+					<li>Sanduíche natural de atum</li>
+					<li>Misto quente</li>
+					<li>Coxinha de frango</li>
+					<li>Empada de palmito</li>
+					<li>Pastel de carne</li>
+					<li>Pastel de queijo</li>
+					<li>Salgados variados (kibe, esfiha, etc.)</li>
+					<li>Batata frita</li>
+					<li>Batata rústica</li>
+					<li>Onion rings</li>
+					<li>Caldos (feijão, mandioca, etc.)</li>
+				</ul>
+			</section>
+
+
+			<section>
+				
+				<h3>Nosso cadárpio é sucelento e temos diversas delícias.</h3> 
+	
+				<div id="container">
+					<div class="card">
+						<img src="img/img açai.jpg" alt="foto de um açai" />
+						<div class="card-content">
+							<h3>Açaí</h3>
+						</div>
+					</div>
+	
+					<div class="card">
+						<img src="img/img bat.jpg" alt="foto de uma batata suculenta"/>
+						<div class="card-content">
+							<h3>Batata</h3>
+							
+						</div>
+					</div>
+	
+					<div class="card">
+						<img src="img/img mac.jpg" alt="foto de uma macarronada com almondegas"/>
+						<div class="card-content">
+							<h3>Macarronada</h3>
+						</div>
+					</div>
+	
+					<div class="card">
+						<img src="img/img pizza.jpg" alt="foto de uma pizza"/>
+						<div class="card-content">
+							<h3>Pizza</h3>
+							</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section id="#pag-pedidos">
+			<h1>PEDIDOS</h1>
+			
+			<form name="" method="" action="">
+				<label for="pedido">Escolha seu pedido:</label>
+    <select id="pedido" name="pedido" required>
+        <option value="">Selecione...</option>
+        <option value="Hambúrguer simples">Hambúrguer simples</option>
+        <option value="Cheeseburger">Cheeseburger</option>
+        <option value="X-Burger">X-Burger</option>
+        <option value="X-Bacon">X-Bacon</option>
+        <option value="X-Egg">X-Egg</option>
+        <option value="X-Tudo">X-Tudo</option>
+        <option value="Frango grelhado no pão">Frango grelhado no pão</option>
+        <option value="Sanduíche natural de frango">Sanduíche natural de frango</option>
+        <option value="Sanduíche natural de atum">Sanduíche natural de atum</option>
+        <option value="Misto quente">Misto quente</option>
+        <option value="Coxinha de frango">Coxinha de frango</option>
+        <option value="Empada de palmito">Empada de palmito</option>
+        <option value="Pastel de carne">Pastel de carne</option>
+        <option value="Pastel de queijo">Pastel de queijo</option>
+        <option value="Salgados variados (kibe, esfiha, etc.)">Salgados variados (kibe, esfiha, etc.)</option>
+        <option value="Batata frita">Batata frita</option>
+        <option value="Batata rústica">Batata rústica</option>
+        <option value="Onion rings">Onion rings</option>
+        <option value="Caldos (feijão, mandioca, etc.)">Caldos (feijão, mandioca, etc.)</option>
+    </select>
+    
+    <label for="quantidade">Quantidade:</label>
+    <input type="number" id="quantidade" name="quantidade" min="1" max="10" required>
+    
+    <label for="nome">Seu nome:</label>
+    <input type="text" id="nome" name="nome" required>
+    
+    <label for="email">Seu e-mail:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="telefone">Seu telefone:</label>
+    <input type="tel" id="telefone" name="telefone" required>
+    
+    <label for="forma_pagamento">Forma de pagamento:</label>
+    <select id="forma_pagamento" name="forma_pagamento" required>
+        <option value="">Selecione...</option>
+        <option value="Dinheiro">Dinheiro</option>
+        <option value="Cartão de crédito">Cartão de crédito</option>
+        <option value="Cartão de débito">Cartão de débito</option>
+        <option value="Pix">Pix</option>
+        <option value="Transferência bancária">Transferência bancária</option>
+    </select>
+    
+    <label for="horario_retirada">Horário de retirada:</label>
+    <input type="datetime-local" id="horario_retirada" name="horario_retirada" required>
+    
+    <label for="observacoes">Observações:</label>
+    <textarea id="observacoes" name="observacoes" rows="4"></textarea>
+    
+    <input type="submit" value="Enviar Pedido">
+</form>
+			</form>
+		</section>
+
+		<section id="pag-localização">
+		<h3>LOCALIZAÇÃO</h3>
+
+		<p>Venha nos conhecer! </p>
+			<div class="map-container">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.949506756074!2d-47.88167672487065!3d-15.75381018488094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b1e02415707%3A0x3060d8a3139ab079!2sInstituto%20Federal%20de%20Bras%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1721867478412!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+	</section>
+	
+
+	</body>
+	</html>
+
+		<footer>
+			<p> RESTAURANTE DO ALVES - 2024</p>
+		</footer>
+	</body>
+</html>
+
+
+
+
+
+
